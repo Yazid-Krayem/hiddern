@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- main css-->
+    <link rel="stylesheet" href="hidden.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+                <h1>My Portfolio</h1>
+            </header>
+            
+    <div class="main">
+            <!-- slider for all images-->
+            <div id="type1">
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="image/1.jpg" width="350px;">
+                <img class="mySlides" src="image/2.jpg" width="350px;">
+                <img class="mySlides" src="image/3.jpg" width="350px;">
+                <img class="mySlides" src="image/4.jpg" width="350px;">
+            
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            </div>
+            
+            <!--slider for type2-->
+            <div id="type2">
+            <div class="w3-content w3-display-container">
+                <img class="mySlides2" src="image/2.jpg" width="200px;">
+                <img class="mySlides2" src="image/1.jpg" width="200px;">
+                <img class="mySlides2" src="image/3.jpg" width="200px;">
+                <img class="mySlides2" src="image/4.jpg" width="200px;">
+            
+                <button class="w3-button w3-black w3-display-left" onclick="plusD2(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusD2(1)">&#10095;</button>
+            </div>
+            </div>
+            <!-- slider for type 3-->
+            <div id="type3">
+                <div class="w3-content w3-display-container">
+                <img class="mySlides3" src="image/3.jpg" width="200px;">
+                <img class="mySlides3" src="image/2.jpg" width="200px;">
+                <img class="mySlides3" src="image/1.jpg" width="200px;">
+                <img class="mySlides3" src="image/4.jpg" width="200px;">
+            
+                <button class="w3-button w3-black w3-display-left" onclick="plusD3(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusD3(1)">&#10095;</button>
+            </div>
+            </div>
+                <!--categroy buttons-->
+           <div class="categroy">
+            <button id="one">one</button>
+            <button id="two">two</button>
+            <button id="three">three</button>
+            <br>
+            <br>
+            <button id="forth">one</button>
+            <button id="fifth">two</button>
+            <button id="sixth">three</button>
+            </div>
+    </div>
+
+        
+
+    <!-- jQurey and javascript bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- main javascript-->
+    <script src="hidden.js"></script>
+</body>
+</html>

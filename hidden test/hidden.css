@@ -1,0 +1,100 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background: url('image/bg_tile.jpg') #18222b;
+}
+
+body{
+	color:#fcfcfc;
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	min-height: 930px;
+	background:url('image/bg_center.jpg') center 240px no-repeat;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+/*----------------------------
+	Headers & Footers
+-----------------------------*/
+
+
+header{
+	background:url('image/header.png') repeat-x;
+	display: block;
+	height: 220px;
+	padding: 10px;
+}
+
+h1{
+	background:url('image/logo.png') no-repeat center center;
+	height: 80px;
+	margin: 75px auto;
+	overflow: hidden;
+	text-align: center;
+	text-indent: -99999px;
+}
+
+
+/* 
+#type1{
+    position: relative;
+    float: right;
+    top: 100px;
+    padding-right: 150px;
+    
+}
+#type2{
+    position: relative;
+    float: right;
+    bottom: 555px;  
+    padding-right: 150px;
+}
+#type3{
+    position: relative;
+    float: right;
+    bottom: 208px;
+    padding-right: 150px;
+}
+.categroy{
+    width: -webkit-fit-content;
+    height: -webkit-fit-content;
+    width: -moz-fit-content;
+    height: -moz-fit-content;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+}
+.main{
+    padding: 0;
+} */
+/* .w3-display-container{
+    width: -webkit-fit-content;
+    height: -webkit-fit-content;
+    width: -moz-fit-content;
+    height: -moz-fit-content;
+} */
